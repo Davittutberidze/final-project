@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <h4>Logo</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <header>
+            <h1 class="anim">Welcome to the car show</h1>
+            <p class="anim" style="font-size: large; color: antiquewhite">Take a look at the best cars of the world</p>
+        </header>
+        <div class="work2">
+            <div id="app" class="anim"></div>
+
+            <script type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.1/umd/react.production.min.js"></script>
+            <script type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js"></script>
+            <script type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.6/index.min.js"></script>
+            <script type="text/javascript" src="app.js"></script>
+        </div>
+
+        <div class="header2">
+            <h1 class="anim">German quality </h1>
+            <p class="anim" style="font-size: large; color: antiquewhite">German cars are really astonishing and worth buying</p>
+            <div class="work">
+                <img class="anim" src="./img/r8.jpg" alt="">
+                <img class="anim" src="./img/m3.jpg" alt="">
+                <img class="anim" src="./img/am.jpg" alt="">
+                <img class="anim" src="./img/gt.jpg" alt="">
+            </div>
+        </div>
+
+        <footer>
+            <p>® All Rights Reserved</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+        window.sr = ScrollReveal();
+        sr.reveal('.anim', { delay: 400 });
+    </script>
+</body>
+
+</html>
